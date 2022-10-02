@@ -1,8 +1,4 @@
 #!/bin/bash
 
-printf "Hello, "
+printf "Welcome, $*"
 
-for var in "$@"
-do
-    printf "$var "
-done
